@@ -1,6 +1,6 @@
 def starts_with_a_vowel?(word)
 
-  word.match(/^[aeiou]/) == nil ? false : true
+  word.upcase.match(/^[aeiou]/) == nil ? false : true
 
 end
 
