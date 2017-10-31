@@ -1,5 +1,5 @@
 def starts_with_a_vowel?(word)
-  word.scan(/^[aeiou]{1}/) ? true : false
+  word.scan(/^[aeiou]{1}\s/) ? true : false
 end
 
 def words_starting_with_un_and_ending_with_ing(text)
